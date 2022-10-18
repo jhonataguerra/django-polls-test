@@ -2,6 +2,8 @@ from django.urls import path
 from . import views
 
 
+app_name = 'polls'
+
 # Home page
 urlpatterns = [
     # ex: /polls/
